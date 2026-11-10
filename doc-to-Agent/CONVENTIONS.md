@@ -8,6 +8,10 @@
 - 不要跨仓库混改：各子项目仓库和顶层项目文档应分别看待。
 - 父仓库只管理顶层文档和自己的方法；各基线方法由各自仓库管理。
 - 探索某个基线方法的改动时，从该方法用于复现的基线提交创建实验分支，在该方法自己的仓库中修改和提交。探索阶段的改动留在实验分支；确认选用某个方案作为自研方法后，再将选定的实现纳入 `methods/Ours/`。
+    + 已有远程仓库地址：
+        + AlphaX：https://github.com/Mr-Capybara/AlphaX.git
+        + AlphaGen：https://github.com/Mr-Capybara/AlphaGen.git
+        + AlphaForge：https://github.com/Mr-Capybara/AlphaForge.git
 - 临时实验产物、日志、缓存不要随手加入长期文档或源码。
 
 ## 代码变更
